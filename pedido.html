@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DulceRecuerdo-Pedido</title>
+</head>
+<body>
+    <h1>Realice su pedido</h1>
+    <hr>
+
+    <h2>Proporcione los siguientes datos personales:</h2>
+
+    <form action="pedido.js">
+
+        <label for="Nombre">Ingresa tu nombre</label> <br>
+        <input type="text" placeholder="Nombre"  name="Nombre" id="Nombre" required="true"> <br><br>
+
+        <label for="Telefono">Ingresa tu numero de teléfono</label><br>
+        <input type="tel" id="Telefono" name="Telefono" maxlength="10" placeholder="Numero" required="true"><br><br>
+
+        <label for="Correo">Ingresa tu correo electronico</label><br>
+        <input type="email" id="Correo" name="Correo" placeholder="ejemplo@ejemplo.com" required="true"><br><br>
+
+        <label for="Descripcion">Agrega el motivo del pastel y lo que te gustaria que tuviera</label> <br>
+        <input type="text" id="Descripcion" name="Descripcion" maxlength="200" placeholder="Cumpleños infantil" required="true"><br><br>
+
+        <h2>Indique las caracteristicas de su pastel</h2>
+
+        <h3>Sabor del biscocho</h3>
+        <input type="radio" id="Vainilla" name="Sabor" value="Vainilla">
+        <label for="Vainilla">Vainilla</label><br>
+
+        <input type="radio" id="Chocolate" name="Sabor" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+
+        <input type="radio" id="TresLeches" name="Sabor" value="TresLeches">
+        <label for="TresLeches">Tres Leches</label><br>
+
+        <input type="radio" id="MilHojas" name="Sabor" value="MilHojas">
+        <label for="MilHojas">Mil Hojas</label><br>
+
+        <input type="radio" id="RedVelvet" name="Sabor" value="RedVelvet">
+        <label for="RedVelvet">Red Velvet</label><br>
+
+        <input type="radio" id="Marmoleado" name="Sabor" value="Marmoleado">
+        <label for="Marmoleado">Marmoleado</label><br>
+
+        <input type="radio" id="Imposible" name="Sabor" value="Imposible">
+        <label for="Imposible">Imposible</label><br><br>
+
+        <h3>Tipo de relleno</h3>
+        <input type="radio" id="Fresa" name="relleno" value="Fresa">
+        <label for="Fresa">Fresa</label><br>
+
+        <input type="radio" id="Durazno" name="relleno" value="Durazno">
+        <label for="Durazno">Durazno</label><br>
+
+        <input type="radio" id="Uva" name="relleno" value="Uva">
+        <label for="Uva">Uva</label><br>
+
+        <input type="radio" id="Mango" name="relleno" value="Mango">
+        <label for="Mango">Mango</label><br>
+
+        <input type="radio" id="Nuez" name="relleno" value="Nuez">
+        <label for="Nuez">Nuez</label><br>
+
+        <input type="radio" id="Frutos" name="relleno" value="Frutos">
+        <label for="Frutos">Frutos Rojos</label><br>
+
+        <input type="radio" id="frutas" name="relleno" value="frutas">
+        <label for="frutas">Mix de Frutas</label><br>
+
+        <input type="radio" id="Piñon" name="relleno" value="Piñon">
+        <label for="Piñon">Piñon</label><br>
+
+        <h3>Tipo de decoraciones</h3>
+        <input type="radio" id="definido" name="decoraciones" value="definido">
+        <label for="definido">Diseño predefino</label><br>
+
+        <input type="radio" id="propio" name="decoraciones" value="propio">
+        <label for="propio">Diseño propio</label><br>
+
+        <input type="radio" id="fondant" name="decoraciones" value="fondant">
+        <label for="fondant">Diseño con fondant</label><br><br>
+
+        <h3>Fecha de entrega</h3>
+        <input type="datetime-local" id="fecha2" name="fecha2"><br><br><br>
+
+        <input type="reset">
+        <input type="submit">
+
+        <br><br>
+
+        <a href="index.html">
+            <input type="button" value="Regresar">
+        </a>
+        <a href="admin.html">
+            <input type="button" value="Pastelero">
+        </a>
+        <br><br>
+
+    </form>
+
+</body>
+</html>
